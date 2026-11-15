@@ -193,8 +193,8 @@ Core components:
 
 | Platform | Artifact | Size | SHA-256 |
 |---|---|---|---|
-| macOS (x86_64; Apple Silicon via Rosetta 2) | [THE ARK-0.1.0.dmg](../../releases/download/v0.1.0-demo/THE%20ARK-0.1.0.dmg) | 274 MB | `064c3e436503209b789d02ee6a96862eaf8f2f04c78da55281534992040992b2` |
-| macOS (x86_64) | [THE ARK-0.1.0-mac.zip](../../releases/download/v0.1.0-demo/THE%20ARK-0.1.0-mac.zip) | 280 MB | `8a80ca1aa9e13d39b8d8debc04437d45479a43f3a951209dcd12ecd5d6fb23be` |
+| macOS (x86_64; Apple Silicon via Rosetta 2) | [THE ARK-0.1.0.dmg](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0.dmg) | 274 MB | `064c3e436503209b789d02ee6a96862eaf8f2f04c78da55281534992040992b2` |
+| macOS (x86_64) | [THE ARK-0.1.0-mac.zip](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0-mac.zip) | 280 MB | `8a80ca1aa9e13d39b8d8debc04437d45479a43f3a951209dcd12ecd5d6fb23be` |
 | Windows / Linux | Not published yet — requires per-OS backend runtimes | — | — |
 
 ### Verify (macOS)
