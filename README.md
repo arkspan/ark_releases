@@ -131,6 +131,11 @@ court-ready report.
 
 [EVILPIKIN](https://github.com/UncleT-cyber/evilpikin) is an operator-controlled **Adversary-in-The-Middle (AiTM) phishing proxy** with a data plane and a control API — a tool class used by threat teams and red programs for **authorized** phishing-attack simulation, not a spoofing kit for public use. ARK integrates with a running EVILPIKIN instance as one closed-loop capability inside the Social Engineering Assessment workspace.
 
+<p align="center">
+  <img src="docs/images/evilpikin-tui.png" width="560" alt="EVILPIKIN operator cockpit during an authorized lab engagement — command surface, data-plane telemetry, and the configured target roster">
+</p>
+<p align="center"><em>The EVILPIKIN operator cockpit: command surface on the left, data-plane telemetry on the right, configured target roster at the bottom. Shown against lab <code>.test</code> domains; ARK operators drive the same instance from inside the workbench.</em></p>
+
 ### What it does inside ARK
 
 - **Closed-loop operation.** ARK plans the assessment (lure selection, target assignment, cookie analysis) → the **operator declares the engagement** → EVILPIKIN executes the AiTM flow against the declared target → captured data flows back → ARK analyzes and records it as case evidence. ARK never fires an AiTM flow on its own initiative, and nothing leaves the declared scope.
