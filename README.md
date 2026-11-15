@@ -30,20 +30,15 @@ reasoning in a single operational control plane.
 
 ## Screenshots
 
-> Current desktop builds. Images show the v0.1.0-demo surfaces; the two large
-> workspace images were captured on an earlier build and the chrome has since been restyled.
+> Current desktop builds — the v0.1.0-demo surfaces as they ship.
 
 | Start an investigation | Tabs-first workbench |
 |---|---|
 | ![Start an investigation](docs/images/02-start-investigation.png) | ![Investigation workspace](docs/images/03-workspaces.png) |
 
-| Image Intelligence — map-first assessment | Authorized Security Testing |
+| Authorized Security Testing | Phishing & AiTM — EVILPIKIN |
 |---|---|
-| ![Image intelligence investigation](docs/images/investigation.png) | ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) |
-
-| Phishing & AiTM — EVILPIKIN | Human-in-the-loop approval |
-|---|---|
-| ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) | ![HITL approval gate](docs/images/terminal.png) |
+| ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) | ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) |
 
 ---
 
