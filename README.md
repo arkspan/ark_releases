@@ -51,21 +51,13 @@ optional React Native mobile companion.
 
 > Images are from an in-development build and are shown for demonstration only.
 
-| The ARK Workbench | Image Investigation |
+| Start an Investigation | Workspaces and Cases |
 |---|---|
-| ![The ARK workbench](docs/images/05-workbench.png) | ![Image investigation](docs/images/06-image-investigation.png) |
+| ![Start an investigation](docs/images/02-start-investigation.png) | ![Workspaces and cases](docs/images/03-workspaces.png) |
 
-| Terminal Agent | Start an Investigation |
+| Authorized Security Testing | Phishing & AiTM Assessment |
 |---|---|
-| ![Terminal agent](docs/images/07-terminal-agent.png) | ![Start an investigation](docs/images/02-start-investigation.png) |
-
-| Workspaces and Cases | Authorized Security Testing |
-|---|---|
-| ![Workspaces and cases](docs/images/03-workspaces.png) | ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) |
-
-| Phishing & AiTM Assessment |
-|---|
-| ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) |
+| ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) | ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) |
 
 ---
 
