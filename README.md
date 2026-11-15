@@ -13,7 +13,7 @@ reasoning in a single operational control plane.
 [![Electron 32](https://img.shields.io/badge/Electron-32-47848F?logo=electron&logoColor=white)](https://electronjs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#licensing)
 
-[Overview](#overview) · [Capabilities](#capabilities) · [EVILPIKIN](#evilpikin-integration) · [Architecture](#architecture) · [Downloads](#downloads) · [BYOK](#bring-your-own-keys) · [Roadmap](#roadmap)
+[Overview](#overview) · [Screenshots](#screenshots) · [Capabilities](#capabilities) · [EVILPIKIN](#evilpikin-integration) · [Architecture](#architecture) · [Downloads](#downloads) · [BYOK](#bring-your-own-keys) · [Roadmap](#roadmap)
 
 </div>
 
@@ -25,6 +25,25 @@ reasoning in a single operational control plane.
 > workaround documented in [Downloads](#downloads), there is no auto-updater, and some
 > capabilities are intentionally unfinished or dry-run only (called out below).
 > Windows and Linux packages are not published yet.
+
+---
+
+## Screenshots
+
+> Current desktop builds. Images show the v0.1.0-demo surfaces; the two large
+> workspace images were captured on an earlier build and the chrome has since been restyled.
+
+| Start an investigation | Tabs-first workbench |
+|---|---|
+| ![Start an investigation](docs/images/02-start-investigation.png) | ![Investigation workspace](docs/images/03-workspaces.png) |
+
+| Image Intelligence — map-first assessment | Authorized Security Testing |
+|---|---|
+| ![Image intelligence investigation](docs/images/investigation.png) | ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) |
+
+| Phishing & AiTM — EVILPIKIN | Human-in-the-loop approval |
+|---|---|
+| ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) | ![HITL approval gate](docs/images/terminal.png) |
 
 ---
 
