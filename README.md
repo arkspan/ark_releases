@@ -144,6 +144,18 @@ court-ready report.
 - **Cookie-drift analysis.** ARK diffs the target's tracked cookie set against its live login surface (`captures` ∪ `probe`), surfaces untracked cookies with provenance, and prepares a **deterministic drift proposal** — names only, never values — for operator review before any profile write-back. ARK's read-only agents can *see* the data plane (recon snapshot, cookie map, drift proposals); **writes stay operator-only** behind per-operation approval.
 - **Forensic reporting.** After a session completes, ARK generates an attack report and a court-ready forensic report, saved durably into the ARK case store (`arkgeo_case_reports`) with its custody hash — the same chain-of-custody as every other artifact.
 
+### Assessment and mitigation — the part that makes ARK the brain
+
+Harvesting a session is evilpikin's job. **Understanding it is ARK's.** Three layers run over a captured session, in order:
+
+1. **Deterministic assessment — no model required.** ARK reconstructs the attack path as an auditable timeline (`LURE CLICK → TARGET ACTIVE → UPSTREAM PROXIED → CAPTURED`), records the delivery chain, proxy and upstream hosts, and captured cookie **names** (never values), and proposes mitigations with rule-based logic driven by what the capture actually showed — e.g. hardware-bound FIDO2/WebAuthn when credentials leaked (password+OTP are relayable through an AiTM proxy; FIDO2 is not), session-token binding and shorter TTLs for captured cookies, conditional access, DNS resolver-intercept monitoring, and Certificate Transparency alerts for the phishing domain. Severity and rationale are attached to every proposal; you tick which ones fold into the case.
+2. **AI root-cause assessment — model credential required, HITL-gated.** A non-sensitive digest (attack path, hosts, drift findings, mitigation proposals — never secret values) is projected into a three-specialist chain: **Blue Team** (severity, false-positive likelihood, blast radius), **DFIR** (timeline and IOCs), **Reporting** (root-cause brief). Containment proposals become *approval requests*, never executions. Without a model key this layer degrades honestly to `skipped_no_ai` and the deterministic layer still stands on its own.
+3. **Structural promotion rule.** Attack-path hypotheses enter the case evidence graph at tier 2, and a tier-2 node cannot be promoted to a finding without corroboration from a higher epistemic tier — enforced by the evidence graph itself, not by prompt wording. The AiTM narrative must agree with the rest of the case (or be blocked) before it is treated as established fact.
+
+Everything lands in the case: the attack report, the triage artifact, the drift findings, the selected mitigations, each custody-hashed. The AI proposes; the operator disposes.
+
+Honest gaps today: mitigations are static rules, not organization-aware (no notion of "policy X already covers this"); root-cause quality depends entirely on the model you configure; there is no re-probe to confirm a mitigation actually closed the hole; and both halves are only as good as the session quality evilpikin captured.
+
 ### What is deliberately not real yet
 
 - **SPECTER** (an agentic C2/surveillance sibling) is listed in the workspace with a truthful **Not integrated** chip — there is no ARK endpoint for it today and none is implied.
