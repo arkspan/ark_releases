@@ -13,7 +13,7 @@ reasoning in a single operational control plane.
 [![Electron 32](https://img.shields.io/badge/Electron-32-47848F?logo=electron&logoColor=white)](https://electronjs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#licensing)
 
-[Overview](#overview) · [Screenshots](#screenshots) · [Capabilities](#capabilities) · [EVILPIKIN](#evilpikin-integration) · [Architecture](#architecture) · [Downloads](#downloads) · [BYOK](#bring-your-own-keys) · [Roadmap](#roadmap)
+[Overview](#overview) · [Watch](#downloads) · [Screenshots](#screenshots) · [Capabilities](#capabilities) · [EVILPIKIN](#evilpikin-integration) · [Architecture](#architecture) · [Downloads](#downloads) · [BYOK](#bring-your-own-keys) · [Roadmap](#roadmap)
 
 </div>
 
@@ -218,6 +218,10 @@ Core components:
 ---
 
 ## Downloads
+
+**Watch the demo first** — ["ARK - Cybersecurity Ai" (6:24), hosted by Arkspan on Dailymotion](https://www.dailymotion.com/video/xbwyyt6):
+
+[![Watch the demo](https://s1.dmcdn.net/v/gyX2w1g-Zwoqcg4_i/x720)](https://www.dailymotion.com/video/xbwyyt6)
 
 > **v0.1.0-demo — developer preview, unsigned macOS build.** For evaluation and demo showcase.
 > Not approved for production use, and not intended for active engagements against third-party systems.
