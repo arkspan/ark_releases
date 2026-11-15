@@ -8,16 +8,16 @@ ARK is planned for free desktop distribution. Bring your own supported AI provid
 
 ## Screenshots
 
-> **Placeholder images.** The images below are placeholders, not screenshots of a build. Replace them with redacted screenshots from an in-development build once available. No public installer is available yet.
+> Screenshots are from an in-development build and are provided for demonstration only. No public installer is available yet.
 
 | | |
 |---|---|
-| ![ARK dashboard](docs/images/01-dashboard.png) | ![Investigation workspace](docs/images/02-investigation.png) |
-| **Dashboard** — overview of active work and status. | **Investigation workspace** — central workspace for case work. |
-| ![Provider setup (BYOK)](docs/images/03-byok-setup.png) | ![Evidence view](docs/images/04-evidence.png) |
-| **Provider setup** — connect a supported AI provider with your own key. | **Evidence view** — inspect collected artifacts and results. |
+| ![ARK start screen](docs/images/02-start-investigation.png) | ![Workspaces and Case Explorer](docs/images/03-workspaces.png) |
+| **Start an investigation** — describe an investigation or attach evidence to begin. | **Workspaces and cases** — Image, Network and Threat & SecOps workspaces with the Case Explorer. |
+| ![Authorized security testing](docs/images/01-authorized-security-testing.jpg) | ![Phishing and AiTM assessment](docs/images/04-phishing-aitm.png) |
+| **Authorized security testing** — plan and validate authorized assessments. | **Phishing & AiTM** — run authorized phishing and adversary-in-the-middle simulations. |
 
-Replace the placeholder files in [`docs/images/`](docs/images) with redacted screenshots using the filenames above (see [Adding screenshots](#adding-screenshots)).
+See [Adding screenshots](#adding-screenshots) to replace or add images.
 
 ## Highlights
 
@@ -58,7 +58,7 @@ This public repository hosts release information and distribution materials. It 
 
 1. Capture a screenshot from a supported build.
 2. **Redact** any API keys, tokens, personal information, private investigation data, customer data and internal URLs.
-3. Save it into [`docs/images/`](docs/images) using the filename referenced above (for example `docs/images/01-dashboard.png`).
+3. Save it into [`docs/images/`](docs/images) using the filename referenced above (for example `docs/images/02-start-investigation.png`).
 4. Keep images reasonably sized (about 1600px wide) and commit them alongside the README update.
 
 Screenshots must not contain secrets or sensitive data. See [CONTRIBUTING.md](CONTRIBUTING.md).
