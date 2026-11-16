@@ -228,15 +228,15 @@ Core components:
 
 | Platform | Artifact | Size | SHA-256 |
 |---|---|---|---|
-| macOS (x86_64; Apple Silicon via Rosetta 2) | [THE ARK-0.1.0.dmg](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0.dmg) | 274 MB | `064c3e436503209b789d02ee6a96862eaf8f2f04c78da55281534992040992b2` |
-| macOS (x86_64) | [THE ARK-0.1.0-mac.zip](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0-mac.zip) | 280 MB | `8a80ca1aa9e13d39b8d8debc04437d45479a43f3a951209dcd12ecd5d6fb23be` |
+| macOS (x86_64; Apple Silicon via Rosetta 2) | [THE ARK-0.1.0.dmg](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0.dmg) | 274 MB | `9f914f0fac594ea008213cfcd204e96a91f740d560fae682063e586b31fb22f3` |
+| macOS (x86_64) | [THE ARK-0.1.0-mac.zip](../../releases/download/v0.1.0-demo/THE.ARK-0.1.0-mac.zip) | 280 MB | `4aa7d7e171ed1a4f7d52a4762ae3687c712d8a4b958a8c9b56b0e3c2fbdf7f0e` |
 | Windows / Linux | Not published yet — requires per-OS backend runtimes | — | — |
 
 ### Verify (macOS)
 
 ```bash
 shasum -a 256 ~/Downloads/THE\ ARK-0.1.0.dmg
-# expect: 064c3e436503209b789d02ee6a96862eaf8f2f04c78da55281534992040992b2
+# expect: 9f914f0fac594ea008213cfcd204e96a91f740d560fae682063e586b31fb22f3
 
 # The build is unsigned. macOS quarantines apps downloaded from the internet,
 # so Gatekeeper will block it — this is expected, not corruption:
