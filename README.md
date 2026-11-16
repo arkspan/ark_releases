@@ -55,7 +55,7 @@ single principle:
 Originating as an image-forensics and visual-intelligence platform, ARK has grown into a
 multi-domain security operations control plane while keeping its deterministic forensic
 foundations. It integrates a customized fork of the
-[CAI (Cybersecurity AI) Robotics Framework](https://github.com/0x4rn0s/CAI) as its agent
+[CAI (Cybersecurity AI) Robotics Framework](https://github.com/aliasrobotics/CAI) as its agent
 substrate.
 
 **Delivered as:** a FastAPI backend, a React workbench, an Electron desktop app, and an
@@ -327,7 +327,7 @@ guidance.
 ## Licensing
 
 THE ARK is released under the **MIT License**. It integrates the
-[CAI (Cybersecurity AI) Robotics Framework](https://github.com/0x4rn0s/CAI), which retains
+[CAI (Cybersecurity AI) Robotics Framework](https://github.com/aliasrobotics/CAI), which retains
 its own dual licensing: MIT for its OpenAI-derived components, and a research-use license
 for proprietary Alias Robotics components. CAI is **not** relicensed under the MIT license
 of THE ARK; commercial use of research-use components requires a separate license from
