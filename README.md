@@ -244,6 +244,10 @@ xattr -dr com.apple.quarantine "/Applications/THE ARK.app"
 open "/Applications/THE ARK.app"
 ```
 
+No terminal? After the first blocked launch, go to **System Settings → Privacy & Security**
+and scroll to **Security** — a **THE ARK was blocked** banner appears with an
+**Open Anyway** button. Click it, confirm once, and launch from Applications normally after.
+
 On Apple Silicon the x64 build runs under Rosetta 2 — install Rosetta when prompted
 (`softwareupdate --install-rosetta`). x86_64 native hosts run it directly.
 
