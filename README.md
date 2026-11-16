@@ -53,11 +53,9 @@ single principle:
 > what can be safely executed, and how the investigation is recorded with cryptographic
 > integrity.**
 
-Originating as an image-forensics and visual-intelligence platform, ARK has grown into a
-multi-domain security operations control plane while keeping its deterministic forensic
-foundations. It integrates a customized fork of the
-[CAI (Cybersecurity AI) Robotics Framework](https://github.com/aliasrobotics/CAI) as its agent
-substrate.
+**ARK** is an AI-native cybersecurity investigation and security operations environment that unifies digital forensics, threat intelligence, network security, OSINT, evidence management, and controlled security tool execution under a single operational framework.
+
+Its agentic intelligence layer integrates a customized fork of the [CAI (Cybersecurity AI) framework by Alias Robotics](https://github.com/aliasrobotics/CAI), combining AI-assisted investigation with deterministic security tools, operator oversight, and auditable execution.
 
 **Delivered as:** a FastAPI backend, a React workbench, an Electron desktop app, and an
 React Native mobile companion (source only, no published package yet).
