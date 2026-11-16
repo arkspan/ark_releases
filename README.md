@@ -219,9 +219,9 @@ Core components:
 
 ## Downloads
 
-**Watch the demo first** — ["ARK - Cybersecurity Ai" (6:24), hosted by Arkspan on Dailymotion](https://www.dailymotion.com/video/xbwyyt6):
+**Watch the demo first** — ["ARK - Cybersecurity Ai" (6:20), hosted by Arkspan on Dailymotion](https://www.dailymotion.com/video/xbwzdx2):
 
-[![Watch the demo](https://s1.dmcdn.net/v/gyX2w1g-Zwoqcg4_i/x720)](https://www.dailymotion.com/video/xbwyyt6)
+[![Watch the demo](https://s2.dmcdn.net/v/gybqs1g-b3hIZpdQo/x720)](https://www.dailymotion.com/video/xbwzdx2)
 
 > **v0.1.0-demo — developer preview, unsigned macOS build.** For evaluation and demo showcase.
 > Not approved for production use, and not intended for active engagements against third-party systems.
