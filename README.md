@@ -235,7 +235,7 @@ Core components:
 
 ```bash
 shasum -a 256 ~/Downloads/THE\ ARK-0.1.0.dmg
-# expect: cc1d598f6e7e10d610cf75e70e00d24db54ff271f6561000eb6b18431453fbca
+# expect: 49b1e35ecb197d7539b3428995b407eda25b68f5884aea391192b11fe7eb36e1
 
 # The build is unsigned. macOS quarantines apps downloaded from the internet,
 # so Gatekeeper will block it — this is expected, not corruption:
