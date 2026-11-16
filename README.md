@@ -25,7 +25,7 @@ reasoning in a single operational control plane.
 > workaround documented in [Downloads](#downloads), there is no auto-updater, and some
 > capabilities are intentionally unfinished or dry-run only (called out below).
 > Windows and Linux packages are not published yet.
-> **6:20 demo:** [Watch ARK - Cybersecurity Ai on Dailymotion](https://www.dailymotion.com/video/xbwzdx2).
+> **6:37 demo:** [Watch ARK - Cybersecurity Ai on Dailymotion](https://www.dailymotion.com/video/xbx2ndy).
 
 ---
 
@@ -220,9 +220,9 @@ Core components:
 
 ## Downloads
 
-**Watch the demo first** — ["ARK - Cybersecurity Ai" (6:20), hosted by Arkspan on Dailymotion](https://www.dailymotion.com/video/xbwzdx2):
+**Watch the demo first** — ["ARK - Cybersecurity Ai" (6:37), hosted by Arkspan on Dailymotion](https://www.dailymotion.com/video/xbx2ndy):
 
-[![Watch the demo](https://s2.dmcdn.net/v/gybqs1g-b3hIZpdQo/x720)](https://www.dailymotion.com/video/xbwzdx2)
+[![Watch the demo](https://s1.dmcdn.net/v/gzA_c1g-i4zXojO5H/x720)](https://www.dailymotion.com/video/xbx2ndy)
 
 > **v0.1.0-demo — developer preview, unsigned macOS build.** For evaluation and demo showcase.
 > Not approved for production use, and not intended for active engagements against third-party systems.
