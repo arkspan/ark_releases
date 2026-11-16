@@ -25,6 +25,7 @@ reasoning in a single operational control plane.
 > workaround documented in [Downloads](#downloads), there is no auto-updater, and some
 > capabilities are intentionally unfinished or dry-run only (called out below).
 > Windows and Linux packages are not published yet.
+> **6:20 demo:** [Watch ARK - Cybersecurity Ai on Dailymotion](https://www.dailymotion.com/video/xbwzdx2).
 
 ---
 
